@@ -1,0 +1,128 @@
+
+* {
+    grid-template-rows: repeat(5, 450px);
+    grid-gap: 40px;
+    box-sizing: content-box;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+body, html {
+    background-color: gray;
+    padding: 0%;
+    position: static;
+    min-width: 40px;
+    max-width: 140%;
+    background-image: url('https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95bd34713.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.ish {
+    width: 450px;
+    height: fit-content;
+    position: static;
+    right: 700px;
+    min-width: 20%;
+    max-width: 100%;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logos {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    left: 1500px;
+    min-width: 20%;
+    max-width: 100%;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+header {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    transition-property: font-size;
+    transition-duration: 1.5s
+}
+
+#nav {
+    list-style-type:square;
+    transition-property: font-size;
+    transition-duration: 1.5s;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: static;
+    top: -90px;
+    left: 650px;
+    min-width: min-content;
+    max-width: max-content;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#nav a {
+    color: burlywood;
+}
+#clock {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -40px;
+    min-width: 40px;
+
+
+}
+
+.me {
+   display: flex;
+   flex-direction: row;
+   width: 85%;
+   min-width: 40px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+p {
+    font-size: 30px;
+    height: max-content;
+    min-width: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+li {
+    font-size: 30px;
+    min-width: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.h1-3{
+    position: static;
+
+    min-width: 40px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
